@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="caf08259-6acd-449b-a1ed-e1e19fddb1ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ip_pools/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ip_pools/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip_pools/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ip_pools/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <updated>1648384926916</updated>
       <workItem from="1648384937887" duration="11778000" />
       <workItem from="1648399603985" duration="5477000" />
-      <workItem from="1648482516497" duration="30109000" />
+      <workItem from="1648482516497" duration="31150000" />
     </task>
     <task id="LOCAL-00001" summary="Add uwsgi.ini">
       <created>1649000785373</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649001334564</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="revise http port in uwsgin.ini">
+      <created>1649002630100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649002630100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add uwsgi.ini" />
     <MESSAGE value="revise port in uwsgin.ini" />
-    <option name="LAST_COMMIT_MESSAGE" value="revise port in uwsgin.ini" />
+    <MESSAGE value="revise http port in uwsgin.ini" />
+    <option name="LAST_COMMIT_MESSAGE" value="revise http port in uwsgin.ini" />
   </component>
 </project>
