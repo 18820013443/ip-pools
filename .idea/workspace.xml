@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caf08259-6acd-449b-a1ed-e1e19fddb1ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ip_pools/uwsgi.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip_pools/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ip_pools/uwsgi.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +81,16 @@
       <updated>1648384926916</updated>
       <workItem from="1648384937887" duration="11778000" />
       <workItem from="1648399603985" duration="5477000" />
-      <workItem from="1648482516497" duration="28499000" />
+      <workItem from="1648482516497" duration="29061000" />
     </task>
+    <task id="LOCAL-00001" summary="Add uwsgi.ini">
+      <created>1649000785373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649000785374</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add uwsgi.ini" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add uwsgi.ini" />
   </component>
 </project>
