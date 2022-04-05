@@ -101,9 +101,15 @@ DATABASES = {
 }
 
 from mongoengine import connect
+from celery.signals import task_prerun
 
-connect('ip_pools', host='127.0.0.1', port=27017)
 
+@task_prerun.connect
+def on_task_init(*args, **kwargs):
+    connect('ip_pools', host='127.0.0.1', port=27017)
+
+
+on_task_init()
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
