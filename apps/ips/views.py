@@ -22,7 +22,7 @@ from apps.account.utils.auth import UserAuthentication
 #     return JsonResponse(result)
 
 class IpsView(APIView):
-    authentication_classes = [UserAuthentication, ]
+    # authentication_classes = [UserAuthentication, ]
 
     def get(self, request):
         ip = IpPools.objects.filter(speed__lt=0, disable_domains__nin='ti.com').first()
