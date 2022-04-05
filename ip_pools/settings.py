@@ -96,7 +96,8 @@ MONGODB_DATABASES = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.dummy'
+        # 'ENGINE': 'django.db.backends.dummy'
+        'ENGINE': ''
     }
 }
 

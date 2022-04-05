@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caf08259-6acd-449b-a1ed-e1e19fddb1ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ip_pools/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ip_pools/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +82,7 @@
       <workItem from="1648384937887" duration="11778000" />
       <workItem from="1648399603985" duration="5477000" />
       <workItem from="1648482516497" duration="33357000" />
-      <workItem from="1649039977755" duration="6956000" />
+      <workItem from="1649039977755" duration="7929000" />
     </task>
     <task id="LOCAL-00001" summary="Add uwsgi.ini">
       <created>1649000785373</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649164272072</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add celery to keep mongodb connection alive from stackoverflow kk">
+      <created>1649164608717</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649164608717</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +159,7 @@
     <MESSAGE value="add ALLOW_HOST = ['*'] in setting.py" />
     <MESSAGE value="Add celery to keep mongodb connection alive" />
     <MESSAGE value="Add celery to keep mongodb connection alive from stackoverflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add celery to keep mongodb connection alive from stackoverflow" />
+    <MESSAGE value="Add celery to keep mongodb connection alive from stackoverflow kk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add celery to keep mongodb connection alive from stackoverflow kk" />
   </component>
 </project>
