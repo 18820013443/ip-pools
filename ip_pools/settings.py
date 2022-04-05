@@ -100,13 +100,14 @@ DATABASES = {
     }
 }
 
-from mongoengine import connect
+from mongoengine import connect, disconnect
 from celery.signals import task_prerun
 
 
 @task_prerun.connect
 def on_task_init(*args, **kwargs):
-    connect('ip_pools', host='127.0.0.1', port=27017)
+    disconnect(alias='default')
+    connect('ip_pools', host='127.0.0.1', port=27017, alias='default')
 
 
 on_task_init()
